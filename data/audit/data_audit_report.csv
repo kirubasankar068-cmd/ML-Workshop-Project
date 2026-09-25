@@ -1,0 +1,26 @@
+Column,Data Type,Role,Clustering,PCA,Classification
+Unnamed: 0,int64,Index,NO,NO,NO
+id,int64,Index,NO,NO,NO
+Gender,object,Feature,YES,NO,YES
+Customer Type,object,Feature,YES,NO,YES
+Type of Travel,object,Feature,YES,NO,YES
+Class,object,Feature,YES,NO,YES
+Age,int64,Feature,YES,YES,YES
+Flight Distance,int64,Feature,YES,YES,YES
+Departure Delay in Minutes,int64,Feature,YES,YES,YES
+Arrival Delay in Minutes,float64,Feature,YES,YES,YES
+Inflight wifi service,float64,Feature,YES,YES,YES
+Departure/Arrival time convenient,float64,Feature,YES,YES,YES
+Ease of Online booking,float64,Feature,YES,YES,YES
+Gate location,float64,Feature,YES,YES,YES
+Food and drink,float64,Feature,YES,YES,YES
+Online boarding,float64,Feature,YES,YES,YES
+Seat comfort,float64,Feature,YES,YES,YES
+Inflight entertainment,float64,Feature,YES,YES,YES
+On-board service,float64,Feature,YES,YES,YES
+Leg room service,float64,Feature,YES,YES,YES
+Baggage handling,float64,Feature,YES,YES,YES
+Checkin service,float64,Feature,YES,YES,YES
+Inflight service,float64,Feature,YES,YES,YES
+Cleanliness,float64,Feature,YES,YES,YES
+satisfaction,object,Target,NO,NO,YES

@@ -1,0 +1,51 @@
+timestamp,dataset,column,issue_detected,original_condition,action_taken,reason,rows_affected,values_changed,output_column_state
+2026-09-25 15:05:43,train,Unnamed: 0,Accidental index column,Column exists,Dropped column,Meaningless index,103904,N/A,Removed
+2026-09-25 15:05:44,train,Inflight wifi service,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,3103,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,train,Departure/Arrival time convenient,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,5300,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,train,Ease of Online booking,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,4487,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,train,Gate location,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,1,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,train,Food and drink,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,107,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,train,Online boarding,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,2428,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,train,Seat comfort,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,1,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,train,Inflight entertainment,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,14,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,train,On-board service,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,3,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,train,Leg room service,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,472,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,train,Checkin service,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,1,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,train,Inflight service,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,3,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,train,Cleanliness,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,12,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,train,Inflight wifi service,Missing values,3103 NaNs,Median imputation,Preserve observations,3103,NaN -> 3.0,Imputed
+2026-09-25 15:05:44,train,Departure/Arrival time convenient,Missing values,5300 NaNs,Median imputation,Preserve observations,5300,NaN -> 3.0,Imputed
+2026-09-25 15:05:44,train,Ease of Online booking,Missing values,4487 NaNs,Median imputation,Preserve observations,4487,NaN -> 3.0,Imputed
+2026-09-25 15:05:44,train,Gate location,Missing values,1 NaNs,Median imputation,Preserve observations,1,NaN -> 3.0,Imputed
+2026-09-25 15:05:44,train,Food and drink,Missing values,107 NaNs,Median imputation,Preserve observations,107,NaN -> 3.0,Imputed
+2026-09-25 15:05:44,train,Online boarding,Missing values,2428 NaNs,Median imputation,Preserve observations,2428,NaN -> 4.0,Imputed
+2026-09-25 15:05:44,train,Seat comfort,Missing values,1 NaNs,Median imputation,Preserve observations,1,NaN -> 4.0,Imputed
+2026-09-25 15:05:44,train,Inflight entertainment,Missing values,14 NaNs,Median imputation,Preserve observations,14,NaN -> 4.0,Imputed
+2026-09-25 15:05:44,train,On-board service,Missing values,3 NaNs,Median imputation,Preserve observations,3,NaN -> 4.0,Imputed
+2026-09-25 15:05:44,train,Leg room service,Missing values,472 NaNs,Median imputation,Preserve observations,472,NaN -> 4.0,Imputed
+2026-09-25 15:05:44,train,Checkin service,Missing values,1 NaNs,Median imputation,Preserve observations,1,NaN -> 3.0,Imputed
+2026-09-25 15:05:44,train,Inflight service,Missing values,3 NaNs,Median imputation,Preserve observations,3,NaN -> 4.0,Imputed
+2026-09-25 15:05:44,train,Cleanliness,Missing values,12 NaNs,Median imputation,Preserve observations,12,NaN -> 3.0,Imputed
+2026-09-25 15:05:44,train,Arrival Delay in Minutes,Missing values,310 NaNs,Median imputation,Preserve observations,310,NaN -> 0.0,Imputed
+2026-09-25 15:05:44,test,Unnamed: 0,Accidental index column,Column exists,Dropped column,Meaningless index,25976,N/A,Removed
+2026-09-25 15:05:44,test,Inflight wifi service,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,813,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,test,Departure/Arrival time convenient,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,1381,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,test,Ease of Online booking,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,1195,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,test,Food and drink,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,25,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,test,Online boarding,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,652,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,test,Inflight entertainment,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,4,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,test,On-board service,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,2,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,test,Leg room service,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,126,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,test,Inflight service,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,2,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,test,Cleanliness,Zero values in rating,0 represents Not Applicable,Converted 0 to NaN,Ratings should be 1-5,2,0 -> NaN,NaN-filled
+2026-09-25 15:05:44,test,Inflight wifi service,Missing values,813 NaNs,Median imputation,Preserve observations,813,NaN -> 3.0,Imputed
+2026-09-25 15:05:44,test,Departure/Arrival time convenient,Missing values,1381 NaNs,Median imputation,Preserve observations,1381,NaN -> 3.0,Imputed
+2026-09-25 15:05:44,test,Ease of Online booking,Missing values,1195 NaNs,Median imputation,Preserve observations,1195,NaN -> 3.0,Imputed
+2026-09-25 15:05:44,test,Food and drink,Missing values,25 NaNs,Median imputation,Preserve observations,25,NaN -> 3.0,Imputed
+2026-09-25 15:05:44,test,Online boarding,Missing values,652 NaNs,Median imputation,Preserve observations,652,NaN -> 4.0,Imputed
+2026-09-25 15:05:44,test,Inflight entertainment,Missing values,4 NaNs,Median imputation,Preserve observations,4,NaN -> 4.0,Imputed
+2026-09-25 15:05:44,test,On-board service,Missing values,2 NaNs,Median imputation,Preserve observations,2,NaN -> 4.0,Imputed
+2026-09-25 15:05:44,test,Leg room service,Missing values,126 NaNs,Median imputation,Preserve observations,126,NaN -> 4.0,Imputed
+2026-09-25 15:05:44,test,Inflight service,Missing values,2 NaNs,Median imputation,Preserve observations,2,NaN -> 4.0,Imputed
+2026-09-25 15:05:44,test,Cleanliness,Missing values,2 NaNs,Median imputation,Preserve observations,2,NaN -> 3.0,Imputed
+2026-09-25 15:05:44,test,Arrival Delay in Minutes,Missing values,83 NaNs,Median imputation,Preserve observations,83,NaN -> 0.0,Imputed
